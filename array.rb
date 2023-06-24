@@ -4,8 +4,6 @@ names = [
   "satou"
 ]
 
-
-
 names << "kobayasi"
 
 puts names

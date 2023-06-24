@@ -11,3 +11,10 @@ while dive < 100
     puts dive
   end
 end
+
+count = 1
+
+while count < 100
+  count += 1
+  puts count
+end
