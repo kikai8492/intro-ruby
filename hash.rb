@@ -5,3 +5,4 @@ puts players_count[:baseball]
 
 dic_members = {ceo: "noro", ai_teacher: "nakao", rails_teacher: "miyashita"}
 puts dic_members[:ceo]
+puts dic_members[:ai_teacher]
