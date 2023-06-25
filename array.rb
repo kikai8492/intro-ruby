@@ -13,4 +13,4 @@ characters = ["noro", "miyashita", "nakao"]
 
 characters << "kikai"
 
-puts characters[3]
+puts characters[2]
