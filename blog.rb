@@ -1,5 +1,4 @@
-blog_title = []
-blog_content = []
+blogs = []
 
 while true
   puts "以下より行う操作を選んでください"
@@ -13,19 +12,22 @@ while true
     puts "1:ブログを作成する"
 
     puts "ブログのタイトルを入力してください"
-    blog_title = gets
+    blog[:title] = gets
     blog_titles << blog_title
     puts "ブログの本文を入力してください"
-    blog_content = gets
+    blog[:content] = gets
     blog_contents << blog_content
     puts "入力されたタイトルと本文は以下です"
 
-    puts "タイトル：#{blog_title}" 
-    puts "本文：#{blog_content}"
+    puts "タイトル：#{blog[:title]}" 
+    puts "本文：#{blog[:content]}"
   elsif number == 2 
     puts "2:作成されたブログを見る"
-    puts "タイトル:#{blog_title}"
-    puts "本文:#{blog_content}"
+    blogs.each do |blog|
+      puts "タイトル:#{blog[:title]}"
+      puts "本文:#{blog[:content]}"
+      puts "---------"
+    end
   elsif number == 3 
     puts "3:ブログアプリを終了する"
     break
