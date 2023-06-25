@@ -11,4 +11,4 @@ when "冬"
   puts "雪だるまを作ります"
 end
 
-puts "HELLO"
+
