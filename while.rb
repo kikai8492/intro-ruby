@@ -1,8 +1,6 @@
 dive = 1
 
 while dive < 100
-  
-
   dive += 1
 
   if dive % 3 ===0
@@ -10,7 +8,12 @@ while dive < 100
   else
     puts dive
   end
+
 end
+
+
+
+
 
 count = 1
 
