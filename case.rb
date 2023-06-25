@@ -1,6 +1,6 @@
-season = "冬"
+season = "秋"
 
-case season 
+case season
 when "春"
   puts "花見をします"
 when "夏"
